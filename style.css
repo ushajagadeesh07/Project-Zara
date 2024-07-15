@@ -1,0 +1,381 @@
+@font-face {
+  font-family: Roboto;
+  src: url("fonts/Roboto/Roboto-Regular.ttf");
+}
+@font-face {
+  font-family: "Roboto Thin";
+  src: url("fonts/Roboto/Roboto-Thin.ttf");
+  font-weight: 100;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  max-width: 100%;
+}
+body {
+  font-family: "Roboto";
+  margin: 0;
+}
+
+/* INDEX html page CSS -- start --*/
+.indexBody {
+  background-image: url("images/background.jpg");
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.indexHeader {
+  padding: 20px 0 0 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  .headerContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    width: fit-content;
+    .logo {
+      width: 600px;
+    }
+    .menuSection {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      a {
+        color: #4c4a4aa8;
+        text-decoration: none;
+        font-size: 18px;
+        /* font-weight: bold;
+      */
+      }
+    }
+  }
+
+  .menuSection a:hover,.headerSubSection a:hover
+  {
+    font-weight: bold;
+  }
+  .headerSubSection {
+    a {
+      color: #4c4a4aa8;
+      text-decoration: none;
+      /* font-weight: bold; */
+      margin: 0 10px;
+      font-size: 18px;
+    }
+  }
+}
+
+main {
+  position: fixed;
+  bottom: 20%;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.mainContent {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: center;
+}
+
+.saleBanner {
+  color: #23f444;
+  font-size: 10rem;
+  letter-spacing: 32px;
+}
+
+.mainTitle {
+  color: white;
+  font-size: 2rem;
+}
+
+.hamburger-menu {
+  display: none;
+  font-size: 5rem;
+  cursor: pointer;
+  width: fit-content;
+  float: right;
+}
+
+.overlay {
+  position: fixed;
+  border-radius: 15px;
+  top: 6rem;
+  right: 0;
+  width: fit-content;
+  background-color: #868686cc;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.overlayNav {
+  display: flex;
+  flex-direction: column;
+}
+
+.overlayNav a {
+  color: #fff;
+  margin: 10px 0;
+  font-size: 1.5em;
+  text-decoration: none;
+  text-align: center;
+}
+
+.overlayNav ul {
+  list-style: none;
+}
+
+@media screen and (max-width: 576px), screen and (max-height: 650px) {
+  .indexHeader,
+  .overlay {
+    display: none;
+  }
+  .hamburger-menu {
+    display: block;
+  }
+  .mainTitle {
+    font-size: 1rem;
+  }
+  .saleBanner {
+    font-size: 5rem;
+    letter-spacing: 20px;
+  }
+}
+/****** ***********INDEX html page CSS -- end --*************/
+
+/* DAMEN html page CSS -- start --***********/
+.damenHeader {
+  padding: 10px 0 0 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 20px;
+
+  .headerContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    .logo {
+      width: 250px;
+    }
+    div a {
+      color: #4c4a4a;
+      text-decoration: none;
+      font-weight: bold;
+      margin: 0 10px;
+    }
+  }
+
+  .headerMenuSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    a {
+      color: black;
+      text-decoration: none;
+      padding: 8px;
+      border: 2px solid #0000006b;
+      margin-right: 10px;
+    }
+
+    a.active {
+      background-color: #000000;
+      color: white;
+    }
+    .menuOptions {
+      width: 80%;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      flex-wrap: wrap;
+      gap: 10px;
+      align-items: center;
+    }
+    .column-icons {
+      width: 20%;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+    }
+    .columnsOption {
+      margin-right: 10px;
+      color: gray;
+      border: none;
+      cursor: pointer;
+    }
+  }
+}
+
+#productList {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 16px;
+  padding-left: 16px;
+  img {
+    width: 100%;
+  }
+  .product {
+    border: 2px solid black;
+    cursor: pointer;
+    color: black;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding-bottom: 8px;
+    word-break: break-word;
+    div {
+      padding-left: 8px;
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  .item {
+    width: calc(100% / 3);
+  }
+}
+
+@media (max-width: 768px) {
+  .item {
+    width: calc(100% / 2);
+  }
+}
+
+@media (max-width: 576px) {
+  .item {
+    width: 100%;
+  }
+  .column-icons {
+    display: none !important;
+  }
+  .menu-options {
+    width: 100% !important;
+  }
+}
+/************** DAMEN html page CSS -- end --***************/
+
+/* ARTICLE html page CSS -- start --*/
+.itemHeader {
+  padding: 10px 0 0 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 20px;
+
+  .headerContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    .logo {
+      width: 250px;
+    }
+    div a {
+      color: #4c4a4a;
+      text-decoration: none;
+      font-weight: bold;
+      margin: 0 10px;
+    }
+  }
+
+  .headerCategorySection {
+    color: #4c4a4a;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 10px;
+	a {
+      color: #4c4a4aa8;
+      text-decoration: none;
+      font-weight: bold;
+      margin: 0 10px;
+    }
+  }
+}
+
+.itemContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.itemContent {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  max-width: 1000px;
+}
+
+.itemImage {
+  align-self: center;
+}
+
+.itemText {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-top: 20px;
+  text-align: left;
+  #itemTitle {
+    font-weight: bold;
+    text-align: left;
+  }
+}
+
+#itemDescription,
+#itemPrice {
+  text-align: left;
+}
+
+#itemSizeHeader {
+  margin-bottom: 20px;
+  font-weight: bold;
+  text-align: left;
+}
+
+#itemSizeList {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.itemSizeElement {
+  color: #7f7a7a;
+  width: 45%;
+  border: 2px solid #7f7a7a;
+  text-align: center;
+  padding: 4px;
+  cursor: pointer;
+  &:hover {
+    background-color: lightgrey;
+  }
+}
+
+@media (max-width: 576px) {
+  .itemContent {
+    flex-direction: column;
+  }
+  .itemText,
+  #itemTitle,
+  #itemPrice,
+  #itemDescription,
+  #itemSizeHeader {
+    text-align: center !important;
+  }
+  #itemSizeList {
+    justify-content: center;
+  }
+}
+/******* ************ARTICLE html page CSS -- end --***************/

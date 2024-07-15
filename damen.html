@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ZARA</title>
+    <link rel="icon" href="images/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <!-- <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    /> -->
+  </head>
+  <body>
+    <header class="damenHeader">
+      <div class="headerContainer">
+        <a href="index.html">
+          <img src="images/logo_dark.svg" alt="Logo" class="logo" />
+        </a>
+        <div>
+          <a href="#">MEIN KONTO</a>
+          <a href="#">HILFE</a>
+          <a href="#">EINKAUFSKORB(0)</a>
+        </div>
+      </div>
+      <div class="headerMenuSection">
+        <div class="menuOptions">
+          <a href="#" dataCategory="all" class="active">ALLES ANZEIGEN</a>
+          <a href="#" dataCategory="trench">TRENCH</a>
+          <a href="#" dataCategory="jacke">JACKE</a>
+          <a href="#" dataCategory="lederjacke">LEDERJACKE | LEDER EFFEKT</a>
+          <a href="#" dataCategory="croppedschnitt">CROPPED-SCHNITT</a>
+          <a href="#" dataCategory="mantel">MANTEL</a>
+        </div>
+        <div class="column-icons">
+          <div dataColumns="1" class="columnsOption">
+            <img src="images/sixperline.svg" />
+          </div>
+          <div dataColumns="2" class="columnsOption">
+            <img src="images/twelveperline.svg" />
+          </div>
+        </div>
+      </div>
+    </header>
+    <div id="productList"></div>
+    <script src="script.js">
+    // Product items will be dynamically generated here 
+    </script>
+  </body>
+</html>
