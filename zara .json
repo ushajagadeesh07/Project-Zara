@@ -1,0 +1,100 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "KURZER TRENCHCOAT MIT GÜRTEL – ZW COLLECTION",
+            "category": "trench",
+            "price": "49.99",
+            "image": "kurzer_trenchcoat_mit_gurtel.jpg",
+            "description": "Kurzer Trench aus Baumwollmischgewebe. Fallendes Revers. Lange verstellbare Ärmel mit Riegel und Knopf. Vordertaschen. Verstellbarer Gürtel aus dem gleichen Material mit Schnalle. Doppelreihige Knopfleiste vorne."
+        },
+        {
+            "id": 2,
+            "name": "MANTEL AUS WOLLMISCHGEWEBE MIT HOHEM KRAGEN",
+            "category": "mantel",
+            "price": "59.99",
+            "image": "mantel_aus_wollmischgewebe.jpg",
+            "description": "Mantel aus Wollmischgewebe. Hoher Kragen. Lange Ärmel. Taschen mit doppelter Paspel vorne. Doppelreihige Knopfleiste vorne."
+        },
+        {
+            "id": 3,
+            "name": "PILOTENJACKE MIT ABNEHMBARER KAPUZE – ZW COLLECTION",
+            "category": "jacke",
+            "price": "89.99",
+            "image": "pilotenjacke_mit_abnehmbarer_kapuze.jpg",
+            "description": "Pilotenjacke mit Rundhalsausschnitt und abnehmbarer, gesteppter Kapuze. Lange Ärmel mit überschnittener Schulter und elastischen, abnehmbaren Bündchen mit Steppmuster. Seitentaschen. Verstellbarer Saum mit Tunnelzug und Stopper. Metallreißverschluss vorne."
+        },
+        {
+            "id": 4,
+            "name": "OVERSHIRT MIT STICKEREI ZW COLLECTION",
+            "category": "shirt",
+            "price": "35.99",
+            "image": "overshirt_mit_stickerei_zw_collection.jpg",
+            "description": "Overshirt aus reiner Baumwolle. Umlegekragen. Lange Ärmel mit geknöpften Bündchen. Aufgesetzte Brusttaschen. Lochstickerei im gleichen Farbton. Metallknöpfe vorne."
+        },
+        {
+            "id": 5,
+            "name": "SOFT-MANTEL MIT KAPUZE",
+            "category": "mantel",
+            "price": "29.99",
+            "image": "softmantel_mit_kapuze.jpg",
+            "description": "Mantel mit Kapuze und langen Ärmeln. Paspeltaschen vorne. Gürtel aus dem gleichen Material. Bomberjacke aus Leinenmischgewebe. Rundhalsausschnitt. Lange Ärmel mit Druckknopf. Paspeltaschen vorne. Elastischer Saum mit Gürtel und verstellbaren Schlaufen an den Seiten. Reißverschluss vorne."
+        },
+        {
+            "id": 6,
+            "name": "KURZE KUNSTLEDERJACKE",
+            "category": "lederjacke",
+            "price": "29.99",
+            "image": "kurze_kunstlederjacke.jpg",
+            "description": "Jacke mit Umlegekragen. Lange Ärmel. Patten vorne. Paspeltaschen. Verdeckter Reißverschluss und verdeckte Druckknöpfe vorne."
+        },
+        {
+            "id": 7,
+            "name": "KURZE BOMBERJACKE AUS LEINENMISCHGEWEBE",
+            "category": "jacke",
+            "price": "29.99",
+            "image": "kurze_bomberjacke_aus_leinenmischgewebe.jpg",
+            "description": "Bomberjacke aus Leinenmischgewebe. Rundhalsausschnitt. Lange Ärmel mit Druckknopf. Paspeltaschen vorne. Elastischer Saum mit Gürtel und verstellbaren Schlaufen an den Seiten. Reißverschluss vorne."
+        },
+        {
+            "id": 8,
+            "name": "TAILLIERTER MANTEL AUS MANTECO-WOLLE ZW COLLECTION",
+            "category": "mantel",
+            "price": "89.99",
+            "image": "taillierter_mantel_aus_manteco-wolle.jpg",
+            "description": "Mantel aus Mischgewebe mit Manteco-Wolle. Fallendes Revers. Lange Ärmel mit Schlitz und Knopf. Pattentaschen vorne. Paspeltasche im Brustbereich."
+        },
+        {
+            "id": 9,
+            "name": "SCHMAL GESCHNITTENER MANTEL AUS MANTECO-WOLLE – ZW COLLECTION",
+            "category": "mantel",
+            "price": "89.99",
+            "image": "schmal_geschnittener_mantel.jpg",
+            "description": "Schal geschnittener Mantel aus Manteco-Wollmischgewebe. Fallendes Revers. Lange Ärmel mit Schlitz und Knopf. Pattentaschen vorne. Paspeltasche im Brustbereich. Innenfutter. Knopfleiste vorne."
+        },
+        {
+            "id": 10,
+            "name": "TAILLIERTER MANTEL SOFT",
+            "category": "mantel",
+            "price": "39.99",
+            "image": "taillierter_mantel_soft.jpg",
+            "description": "Mantel mit Reverskragen. Lange Ärmel mit Schulterpolstern. Taschen mit doppelter Paspel vorne. Gehschlitz am Rückensaum. Knopfleiste vorne."
+        },
+        {
+            "id": 11,
+            "name": "JACKE MIT STRUKTURMUSTER UND LAMÉFADEN",
+            "category": "croppedschnitt",
+            "price": "29.99",
+            "image": "jacke_mit_strukturmuster.jpg",
+            "description": "Kurze Jacke mit Reverskragen. Lange Ärmel. Paspeltaschen vorne. Mit Laméfadendetails. Reißverschluss vorne."
+        },
+        {
+            "id": 12,
+            "name": "KURZES OVERSIZE-CAPE ZW COLLECTION",
+            "category": "jacke",
+            "price": "49.99",
+            "image": "kurzes_oversize_cape.jpg",
+            "description": "Kurzes Cape mit hohem Kragen und Kapuze mit verstellbarem Tunnelzug im gleichen Farbton. Lange, weite Ärmel, verstellbar mit Riegel und Knopf."
+        }
+    ]
+}
